@@ -1,2 +1,3 @@
 # trinhquan2006.github.io
-my personal websites
+learning Github is fun. 
+
