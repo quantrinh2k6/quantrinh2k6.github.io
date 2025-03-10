@@ -1,44 +1,79 @@
 body {
-    background: gray;
+    background: #f4f4f4;
     margin: 0;
     padding: 0;
+    font-family: Arial, sans-serif;
 }
 nav ul {
-    background: black;
+    background: #333;
     margin: 0;
     padding: 0;
     text-align: center;
     list-style: none;
+    padding: 15px 0;
 }
 nav ul li {
     display: inline-block;
-    padding: 20px;
-    font-size: 24px;
-    line-height: 40px;
-    height: 40px;
+    padding: 10px 20px;
+    font-size: 20px;
 }
 nav a {
     text-decoration: none;
     color: #fff;
+    transition: 0.3s;
 }
 nav ul li a:hover {
-    color: red;
+    color: #ff5733;
+}
+header {
+    text-align: center;
+    padding: 40px 0;
+    background: #444;
+    color: white;
 }
 header h1 {
-    text-align: center;
+    margin: 10px 0;
+    font-size: 36px;
 }
-article header p {
-    font-style: italic;
+header p {
+    font-size: 18px;
+}
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 10px;
 }
 main {
-    padding-left: 20px;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-.my-list {
-    text-align: center;
+details {
+    background: #eee;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
 }
-
-.my-list img {
-    display: inline-block;
-    width: 100px;
-    height: 100px;
+summary {
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+ul li {
+    background: #ddd;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+#contact p {
+    font-size: 18px;
 }

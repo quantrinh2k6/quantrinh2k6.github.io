@@ -3,10 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My CV</title>
+    <link rel="stylesheet" href="cv.css">
+   
 </head>
 <body>
-    <p>
-        i am learning <strong>HTML</strong>and<strong>CSS</strong>!</p>
+    <nav id="topmenu">
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>trinh minh quan </h1>
+        <img src="bear.jpg" alt="anh dai dien">
+        <p>Web Developer | Software Engineer</p>
+    </header>
+    <main>
+        <section id="about">
+            <details open>
+                <summary><h2>About Me</h2></summary>
+                <p>Passionate web developer with 5 years of experience in creating dynamic and user-friendly websites.</p>
+            </details>
+        </section>
+        <section id="experience">
+            <details>
+                <summary><h2>Experience</h2></summary>
+                <article>
+                    <header>
+                        <h3>Senior Developer - ABC Company</h3>
+                        <p>2020 - Present</p>
+                    </header>
+                    <p>Developed and maintained web applications, improved website performance, and led a team of junior developers.</p>
+                </article>
+                <article>
+                    <header>
+                        <h3>Web Developer - XYZ Inc.</h3>
+                        <p>2017 - 2020</p>
+                    </header>
+                    <p>Designed and developed responsive websites, collaborated with UI/UX designers, and optimized web pages for SEO.</p>
+                </article>
+            </details>
+        </section>
+        <section id="skills">
+            <details>
+                <summary><h2>Skills</h2></summary>
+                <ul>
+                    <li>HTML, CSS, JavaScript</li>
+                    <li>React, Angular, Vue.js</li>
+                    <li>Node.js, Express.js</li>
+                    <li>MySQL, MongoDB</li>
+                </ul>
+            </details>
+        </section>
+        <section id="contact">
+            <details>
+                <summary><h2>Contact</h2></summary>
+                <p>Email: john.doe@example.com</p>
+                <p>Phone: (123) 456-7890</p>
+                <p>LinkedIn: linkedin.com/in/johndoe</p>
+            </details>
+        </section>
+    </main>
 </body>
 </html>
